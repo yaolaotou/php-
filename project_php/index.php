@@ -33,6 +33,10 @@
 		margin-top: 20px;
 		padding: auto;
 	}
+	#RollingPic img {
+		width: 1100px;
+		height: 300px;
+	}
 	</style>
 </head>
 
@@ -42,7 +46,7 @@
 	<div id="logo"></div>
 	<div id="RollingPic">
 		<!--滚动图片，轮播-->
-		
+		<img src="img/RollingPic_01.png"/>
 	</div>
 </div>
 </div>
