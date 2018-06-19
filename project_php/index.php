@@ -4,24 +4,34 @@
 <meta charset="utf-8">
 <title>首页</title>
 <style type="text/css">
-#bg{
-		width:1200px;
-		height:1000px;
-		background:#DCD7D6;
-		margin:auto;
-		padding:auto;}
+	#bg{
+		width: 1200px;
+		height: 1000px;
+		background: #DCD7D6;
+		margin: auto;
+		padding: auto;
+	}
 	#logo{
 		width: 80px;
 		height: 80px;
-		background-image:url(img/logo.png);
+		background-image: url(img/logo.png);
 	}
 	#nav{
-		width:1100px;
+		width: 1100px;
 		height: 80px;
-		background-color:#FFF;
+		background-color: #FFF;
 		position: relative;
-		margin:auto;
-		padding:auto;
+		margin: auto;
+		padding: auto;
+	}
+	#RollingPic{
+		width: 1100px;
+		height: 300px;
+		background-color: #FFF;
+		position: relative;
+		margin: auto;
+		margin-top: 20px;
+		padding: auto;
 	}
 	</style>
 </head>
@@ -30,6 +40,10 @@
 <div id="bg">
 <div id="nav">
 	<div id="logo"></div>
+	<div id="RollingPic">
+		<!--滚动图片，轮播-->
+		
+	</div>
 </div>
 </div>
 <?php
